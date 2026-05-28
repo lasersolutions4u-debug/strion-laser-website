@@ -67,17 +67,24 @@ function initHeroSlider() {
     });
   });
 
-  let timer = setInterval(() => {
-    current = (current + 1) % total;
-    showSlide(current);
-  }, 5000);
+  // Pause auto-rotation if user prefers reduced motion
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  let timer = null;
+  if (!prefersReducedMotion) {
+    timer = setInterval(() => {
+      current = (current + 1) % total;
+      showSlide(current);
+    }, 6000);
+  }
 
   function resetTimer() {
+    if (prefersReducedMotion) return;
     clearInterval(timer);
     timer = setInterval(() => {
       current = (current + 1) % total;
       showSlide(current);
-    }, 5000);
+    }, 6000);
   }
 
   showSlide(0);

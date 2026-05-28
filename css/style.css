@@ -33,11 +33,11 @@
 
 /* Tech cards */
 .tech-card {
-  border-left: 3px solid var(--red);
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .tech-card:hover {
   background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 /* Sticky nav */
@@ -126,5 +126,22 @@ html {
 
 /* Reveal animation base */
 .reveal {
-  transition: all 0.7s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: none;
+  }
+  .hero-slide {
+    transition: none;
+  }
+}
+
+/* Heading webfont */
+h1, h2, h3, h4, h5, h6,
+.hero-heading,
+.stat-number {
+  font-family: 'Manrope', system-ui, sans-serif;
 }
