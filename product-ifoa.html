@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="iFOA-CN pulsed laser cleaning machine: non-contact rust removal, paint stripping, and surface treatment. Eco-friendly, no chemicals or abrasives required.">
+  <title>iFOA-CN Laser Cleaning Machine | STRION LASER</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            red: { brand: '#c41230', dark: '#a00e28', light: '#d6354f' },
+            dark: { DEFAULT: '#111111', secondary: '#1a1a1a', card: '#222222' },
+            gold: { DEFAULT: '#c8963e', light: '#d4a85c' },
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-gray-800 antialiased">
+
+  <!-- Navigation -->
+  <nav id="main-nav" class="bg-dark w-full z-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center h-16">
+        <a href="index.html" class="flex items-center space-x-3">
+          <img src="images/logo.png" alt="STRION LASER" class="h-10" onerror="this.style.display='none'">
+          <span class="text-xl font-bold text-white tracking-tight">STRION<span class="text-red-brand">LASER</span></span>
+        </a>
+        <div class="hidden md:flex items-center space-x-8 text-white text-sm font-medium">
+          <a href="index.html" class="hover:text-red-light transition">Home</a>
+          <div class="relative group">
+            <a href="products.html" class="text-red-brand">Products <i class="fas fa-chevron-down text-xs ml-1"></i></a>
+            <div class="absolute top-full left-0 mt-2 w-56 bg-white text-gray-800 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <a href="product-hw.html" class="block px-4 py-3 hover:bg-gray-50 border-b">STR-HW Series Handheld Welder</a>
+              <a href="product-ifoa.html" class="block px-4 py-3 hover:bg-gray-50">iFOA-CN Laser Cleaner</a>
+            </div>
+          </div>
+          <a href="about.html" class="hover:text-red-light transition">Technology</a>
+          <a href="products.html#comparison" class="hover:text-red-light transition">Compare</a>
+          <a href="contact.html" class="hover:text-red-light transition">Contact</a>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden text-white text-2xl">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu md:hidden bg-dark-secondary">
+      <div class="px-4 py-3 space-y-2 text-white text-sm">
+        <a href="index.html" class="block py-2">Home</a>
+        <a href="products.html" class="block py-2 text-red-brand">Products</a>
+        <a href="about.html" class="block py-2">Technology</a>
+        <a href="contact.html" class="block py-2">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-dark py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="text-white">
+          <p class="text-red-brand text-sm uppercase tracking-wider mb-3">Laser Cleaning</p>
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+            iFOA-CN Series<br>
+            <span class="text-red-brand">Pulsed Laser</span><br>
+            Cleaning Machine
+          </h1>
+          <p class="text-gray-300 text-lg mb-6 leading-relaxed">
+            Advanced pulsed laser technology for precision surface cleaning. Removes rust, paint, coatings, and contaminants without chemicals, abrasives, or physical contact with the workpiece.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="contact.html" class="inline-block bg-red-brand hover:bg-red-dark text-white font-bold px-6 py-3 rounded transition btn-glow">Request Quote</a>
+            <a href="#applications" class="inline-block border border-white/30 hover:border-white text-white px-6 py-3 rounded transition">View Applications</a>
+          </div>
+        </div>
+        <div class="hidden md:flex justify-center">
+          <img src="images/product-laser.png" alt="iFOA-CN Laser Cleaning Machine" class="max-w-full h-auto rounded-lg" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-3">How Laser Cleaning Works</h2>
+        <div class="section-divider"></div>
+        <p class="text-gray-500 max-w-2xl mx-auto">A clean, precise, and environmentally friendly alternative to traditional cleaning methods.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 reveal opacity-0 translate-y-6 transition-all duration-700">
+          <div class="w-16 h-16 mx-auto mb-4 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-bullseye text-2xl text-red-brand"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">High-Energy Pulses</h3>
+          <p class="text-gray-600 text-sm">Short, intense laser pulses strike the surface, creating rapid thermal expansion that breaks the bond between contaminants and substrate.</p>
+        </div>
+        <div class="text-center p-6 reveal opacity-0 translate-y-6 transition-all duration-700" style="transition-delay: 0.1s">
+          <div class="w-16 h-16 mx-auto mb-4 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-shield-alt text-2xl text-red-brand"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Substrate Safe</h3>
+          <p class="text-gray-600 text-sm">The base material remains undamaged. Laser parameters are tuned so only the contaminant layer absorbs enough energy to be removed.</p>
+        </div>
+        <div class="text-center p-6 reveal opacity-0 translate-y-6 transition-all duration-700" style="transition-delay: 0.2s">
+          <div class="w-16 h-16 mx-auto mb-4 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-leaf text-2xl text-red-brand"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Zero Consumables</h3>
+          <p class="text-gray-600 text-sm">No chemicals, no abrasives, no blasting media. Only electricity required. No secondary waste to dispose of or hazardous materials to handle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison with Traditional Methods -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-3">vs. Traditional Methods</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm bg-white rounded-lg overflow-hidden shadow-md">
+          <thead>
+            <tr class="bg-dark text-white">
+              <th class="py-3 px-4 text-left font-medium">Aspect</th>
+              <th class="py-3 px-4 text-center font-medium bg-red-brand">Laser Cleaning</th>
+              <th class="py-3 px-4 text-center font-medium">Chemical Cleaning</th>
+              <th class="py-3 px-4 text-center font-medium">Sandblasting</th>
+              <th class="py-3 px-4 text-center font-medium">Mechanical Grinding</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b bg-gray-50">
+              <td class="py-3 px-4 font-medium text-dark">Environmental Impact</td>
+              <td class="py-3 px-4 text-center text-green-600"><i class="fas fa-check"></i> Eco-friendly</td>
+              <td class="py-3 px-4 text-center text-red-600"><i class="fas fa-times"></i> Chemical waste</td>
+              <td class="py-3 px-4 text-center text-yellow-600"><i class="fas fa-minus"></i> Dust pollution</td>
+              <td class="py-3 px-4 text-center text-yellow-600"><i class="fas fa-minus"></i> Dust & noise</td>
+            </tr>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-medium text-dark">Substrate Damage</td>
+              <td class="py-3 px-4 text-center text-green-600">None (tunable)</td>
+              <td class="py-3 px-4 text-center text-yellow-600">Possible corrosion</td>
+              <td class="py-3 px-4 text-center text-red-600">Surface abrasion</td>
+              <td class="py-3 px-4 text-center text-red-600">Material removal</td>
+            </tr>
+            <tr class="border-b bg-gray-50">
+              <td class="py-3 px-4 font-medium text-dark">Precision</td>
+              <td class="py-3 px-4 text-center text-green-600">High (selective)</td>
+              <td class="py-3 px-4 text-center text-yellow-600">Limited</td>
+              <td class="py-3 px-4 text-center text-red-600">Poor (blanket)</td>
+              <td class="py-3 px-4 text-center text-red-600">Poor (manual)</td>
+            </tr>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-medium text-dark">Consumables Cost</td>
+              <td class="py-3 px-4 text-center text-green-600">Minimal</td>
+              <td class="py-3 px-4 text-center text-red-600">High (chemicals)</td>
+              <td class="py-3 px-4 text-center text-red-600">High (media)</td>
+              <td class="py-3 px-4 text-center text-yellow-600">Medium (discs)</td>
+            </tr>
+            <tr class="border-b bg-gray-50">
+              <td class="py-3 px-4 font-medium text-dark">Operator Safety</td>
+              <td class="py-3 px-4 text-center text-green-600">Good (with PPE)</td>
+              <td class="py-3 px-4 text-center text-red-600">Chemical exposure</td>
+              <td class="py-3 px-4 text-center text-red-600">Respiratory risk</td>
+              <td class="py-3 px-4 text-center text-red-600">Vibration & noise</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-medium text-dark">Automation Ready</td>
+              <td class="py-3 px-4 text-center text-green-600">Yes</td>
+              <td class="py-3 px-4 text-center text-yellow-600">Partially</td>
+              <td class="py-3 px-4 text-center text-yellow-600">Partially</td>
+              <td class="py-3 px-4 text-center text-red-600">Difficult</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Applications -->
+  <section id="applications" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-3">Applications</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-50 p-6 rounded-lg reveal opacity-0 translate-y-6 transition-all duration-700">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-skull-crossbones text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Rust & Corrosion Removal</h3>
+          <p class="text-gray-600 text-sm">Remove rust and oxidation from steel components, structures, and equipment. Clean without damaging the underlying metal surface.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg reveal opacity-0 translate-y-6 transition-all duration-700" style="transition-delay: 0.1s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-paint-roller text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Paint & Coating Removal</h3>
+          <p class="text-gray-600 text-sm">Strip paint, powder coating, and surface treatments from metal parts. Selective removal without damaging the substrate.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg reveal opacity-0 translate-y-6 transition-all duration-700" style="transition-delay: 0.2s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-cube text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Mold Cleaning</h3>
+          <p class="text-gray-600 text-sm">Clean injection molds, die-cast molds, and tooling without disassembly. Remove release agents, residues, and buildup in-place.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg reveal opacity-0 translate-y-6 transition-all duration-700" style="transition-delay: 0.3s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-oil-can text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Oil & Grease Removal</h3>
+          <p class="text-gray-600 text-sm">Degrease metal surfaces prior to welding, painting, or bonding. Eliminates solvent use and drying time.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg reveal opacity-0 translate-y-6 transition-all duration-700" style="transition-delay: 0.4s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-fire text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Weld Preparation & Cleanup</h3>
+          <p class="text-gray-600 text-sm">Clean weld seams before welding for improved quality. Remove post-weld discoloration and oxidation for a clean finish.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg reveal opacity-0 translate-y-6 transition-all duration-700" style="transition-delay: 0.5s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-monument text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark mb-2">Heritage Restoration</h3>
+          <p class="text-gray-600 text-sm">Gentle cleaning of historical metal artifacts, statues, and architectural elements. Preserves patina while removing harmful deposits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-red-brand">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Interested in Laser Cleaning?</h2>
+      <p class="text-white/80 mb-8">Contact us for pricing, specifications, or to discuss your cleaning application.</p>
+      <a href="contact.html" class="inline-block bg-dark hover:bg-dark-secondary text-white font-bold px-8 py-3 rounded transition">
+        Request Information <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8 mb-12">
+        <div>
+          <h3 class="text-xl font-bold mb-4">STRION<span class="text-red-brand">LASER</span></h3>
+          <p class="text-gray-400 text-sm leading-relaxed mb-3">
+            Advanced laser welding and cleaning solutions. STRION LASER is a cooperative partner brand represented by Jinan Euchio Machinery Co., Ltd.
+          </p>
+          <p class="text-gray-500 text-xs">Authorized Partner</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Products</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="product-hw.html" class="footer-link">STR-HW Handheld Welder</a></li>
+            <li><a href="product-ifoa.html" class="footer-link">iFOA Laser Cleaner</a></li>
+            <li><a href="products.html" class="footer-link">All Products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Company</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="about.html" class="footer-link">Technology</a></li>
+            <li><a href="products.html#comparison" class="footer-link">Product Comparison</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Contact</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><i class="fas fa-envelope mr-2 text-red-brand"></i> sales@euchio.com</li>
+            <li><i class="fab fa-whatsapp mr-2 text-red-brand"></i> +86 186 1558 4520</li>
+            <li><i class="fas fa-map-marker-alt mr-2 text-red-brand"></i> Jinan, Shandong, China</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
+        <p>&copy; 2025 Jinan Euchio Machinery Co., Ltd. All rights reserved. | STRION LASER is a cooperative partner brand.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

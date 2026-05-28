@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="STRION LASER handheld laser welding machines and laser cleaning equipment. Advanced refrigerant cooling technology for 24/7 industrial operation. Authorized partner: Jinan Euchio Machinery Co., Ltd.">
+  <title>STRION LASER | Handheld Laser Welding & Cleaning Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            red: { brand: '#c41230', dark: '#a00e28', light: '#d6354f' },
+            dark: { DEFAULT: '#111111', secondary: '#1a1a1a', card: '#222222' },
+            gold: { DEFAULT: '#c8963e', light: '#d4a85c' },
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-gray-800 antialiased">
+
+  <!-- Top Bar -->
+  <div class="bg-dark text-gray-400 text-sm py-2 hidden md:block">
+    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+      <span><i class="fas fa-envelope mr-2 text-red-brand"></i>sales@euchio.com</span>
+      <span><i class="fab fa-whatsapp mr-2 text-red-brand"></i>+86 186 1558 4520</span>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-red-light transition">EN</a>
+        <a href="#" class="hover:text-red-light transition">中文</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="main-nav" class="bg-dark/98 w-full z-50 transition-all">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center h-16">
+        <a href="index.html" class="flex items-center space-x-3">
+          <img src="images/logo.png" alt="STRION LASER" class="h-10" onerror="this.style.display='none'">
+          <span class="text-xl font-bold text-white tracking-tight">STRION<span class="text-red-brand">LASER</span></span>
+        </a>
+        <div class="hidden md:flex items-center space-x-8 text-white text-sm font-medium">
+          <a href="index.html" class="text-red-brand">Home</a>
+          <div class="relative group">
+            <a href="products.html" class="hover:text-red-light transition">Products <i class="fas fa-chevron-down text-xs ml-1"></i></a>
+            <div class="absolute top-full left-0 mt-2 w-56 bg-white text-gray-800 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <a href="product-hw.html" class="block px-4 py-3 hover:bg-gray-50 border-b">STR-HW Series Handheld Welder</a>
+              <a href="product-ifoa.html" class="block px-4 py-3 hover:bg-gray-50">iFOA-CN Laser Cleaner</a>
+            </div>
+          </div>
+          <a href="about.html" class="hover:text-red-light transition">Technology</a>
+          <a href="products.html#comparison" class="hover:text-red-light transition">Compare</a>
+          <a href="contact.html" class="hover:text-red-light transition">Contact</a>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden text-white text-2xl">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu md:hidden bg-dark-secondary">
+      <div class="px-4 py-3 space-y-2 text-white text-sm">
+        <a href="index.html" class="block py-2 text-red-brand">Home</a>
+        <a href="products.html" class="block py-2">Products</a>
+        <a href="product-hw.html" class="block py-2 pl-4 text-gray-400">- STR-HW Handheld Welder</a>
+        <a href="product-ifoa.html" class="block py-2 pl-4 text-gray-400">- iFOA Laser Cleaner</a>
+        <a href="about.html" class="block py-2">Technology</a>
+        <a href="contact.html" class="block py-2">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider -->
+  <section class="relative bg-dark overflow-hidden" style="min-height: 520px;">
+    <!-- Slide 1: STR-HW -->
+    <div class="hero-slide active absolute inset-0">
+      <div class="absolute inset-0 bg-gradient-to-r from-dark via-dark/90 to-transparent z-10"></div>
+      <img src="images/hero1.png" alt="STR-HW Laser Welder" class="absolute inset-0 w-full h-full object-cover opacity-60" onerror="this.parentElement.style.background='radial-gradient(circle at 70% 50%, #2a2a2a, #111111)'; this.remove()">
+      <div class="relative z-20 max-w-7xl mx-auto px-4 h-full flex items-center">
+        <div class="max-w-xl py-16">
+          <p class="text-red-light text-sm uppercase tracking-wider mb-3">Handheld Laser Welding</p>
+          <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
+            STR-HW Series<br>
+            <span class="text-red-brand">Refrigerant-Cooled</span><br>
+            Laser Welding Machine
+          </h1>
+          <p class="text-gray-300 text-lg mb-8">
+            Dual-circuit refrigerant direct cooling. 14&mu;m small-core fiber. 7&times;24 non-stop. Weld deeper, work longer.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="product-hw.html" class="inline-block bg-red-brand hover:bg-red-dark text-white font-bold px-6 py-3 rounded transition btn-glow">Explore HW Series</a>
+            <a href="contact.html" class="inline-block border border-white/30 hover:border-white text-white px-6 py-3 rounded transition">Request Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2: iFOA -->
+    <div class="hero-slide absolute inset-0">
+      <div class="absolute inset-0 bg-gradient-to-r from-dark via-dark/90 to-transparent z-10"></div>
+      <div class="absolute inset-0 bg-dark-secondary flex items-center justify-center">
+        <div class="text-center text-gray-600">
+          <i class="fas fa-broom text-8xl opacity-20"></i>
+        </div>
+      </div>
+      <div class="relative z-20 max-w-7xl mx-auto px-4 h-full flex items-center">
+        <div class="max-w-xl py-16">
+          <p class="text-red-light text-sm uppercase tracking-wider mb-3">Laser Cleaning</p>
+          <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
+            iFOA-CN<br>
+            <span class="text-red-brand">Pulsed Laser</span><br>
+            Cleaning Machine
+          </h1>
+          <p class="text-gray-300 text-lg mb-8">
+            Precision surface treatment without chemicals or abrasives. Rust removal, paint stripping, mold cleaning &mdash; eco-friendly and substrate-safe.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="product-ifoa.html" class="inline-block bg-red-brand hover:bg-red-dark text-white font-bold px-6 py-3 rounded transition btn-glow">Explore iFOA Series</a>
+            <a href="contact.html" class="inline-block border border-white/30 hover:border-white text-white px-6 py-3 rounded transition">Request Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Technology -->
+    <div class="hero-slide absolute inset-0">
+      <div class="absolute inset-0 bg-gradient-to-r from-dark via-dark/90 to-transparent z-10"></div>
+      <img src="images/hero3.png" alt="STRION LASER Technology" class="absolute inset-0 w-full h-full object-cover opacity-50" onerror="this.parentElement.style.background='radial-gradient(circle at 70% 50%, #2a2a2a, #111111)'; this.remove()">
+      <div class="relative z-20 max-w-7xl mx-auto px-4 h-full flex items-center">
+        <div class="max-w-xl py-16">
+          <p class="text-red-light text-sm uppercase tracking-wider mb-3">Proven Reliability</p>
+          <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
+            -30&deg;C to 60&deg;C<br>
+            <span class="text-red-brand">Extreme Environment</span><br>
+            Proven Performance
+          </h1>
+          <p class="text-gray-300 text-lg mb-8">
+            Only refrigerant-cooled system that handles extreme temperatures. Tested in high-heat and sub-zero conditions. Built for the toughest job sites.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="about.html" class="inline-block bg-red-brand hover:bg-red-dark text-white font-bold px-6 py-3 rounded transition btn-glow">Our Technology</a>
+            <a href="contact.html" class="inline-block border border-white/30 hover:border-white text-white px-6 py-3 rounded transition">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider dots -->
+    <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3 z-30">
+      <button class="hero-dot w-2.5 h-2.5 rounded-full bg-white/50 hover:bg-red-brand transition"></button>
+      <button class="hero-dot w-2.5 h-2.5 rounded-full bg-white/50 hover:bg-red-brand transition"></button>
+      <button class="hero-dot w-2.5 h-2.5 rounded-full bg-white/50 hover:bg-red-brand transition"></button>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="bg-dark-secondary py-10 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="reveal opacity-0 translate-y-6">
+          <div class="stat-number text-3xl md:text-4xl font-bold text-red-brand mb-1">-30~60&deg;C</div>
+          <div class="text-gray-400 text-sm">Operating Temperature Range</div>
+        </div>
+        <div class="reveal opacity-0 translate-y-6" style="transition-delay: 0.1s">
+          <div class="stat-number text-3xl md:text-4xl font-bold text-red-brand mb-1">7&times;24h</div>
+          <div class="text-gray-400 text-sm">Continuous Operation</div>
+        </div>
+        <div class="reveal opacity-0 translate-y-6" style="transition-delay: 0.2s">
+          <div class="stat-number text-3xl md:text-4xl font-bold text-red-brand mb-1">14&mu;m</div>
+          <div class="text-gray-400 text-sm">Small-Core Fiber Technology</div>
+        </div>
+        <div class="reveal opacity-0 translate-y-6" style="transition-delay: 0.3s">
+          <div class="stat-number text-3xl md:text-4xl font-bold text-red-brand mb-1">85%</div>
+          <div class="text-gray-400 text-sm">976nm Pump Efficiency</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Overview -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-3">Our Products</h2>
+        <div class="section-divider"></div>
+        <p class="text-gray-500 max-w-2xl mx-auto">Precision-engineered laser solutions for industrial fabrication. Built with proprietary cooling technology for unmatched reliability.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- STR-HW Card -->
+        <a href="product-hw.html" class="product-card block bg-white rounded-lg overflow-hidden shadow-md border border-gray-100">
+          <div class="h-56 bg-gradient-to-br from-dark to-dark-secondary flex items-center justify-center relative overflow-hidden">
+            <img src="images/product-hw.png" alt="STR-HW" class="absolute inset-0 w-full h-full object-cover opacity-60" onerror="this.style.display='none'">
+            <div class="text-center text-white relative z-10">
+              <i class="fas fa-tools text-5xl mb-4 text-red-brand/70"></i>
+              <h3 class="text-2xl font-bold">STR-HW Series</h3>
+              <p class="text-gray-300 text-sm mt-1">Handheld Laser Welding Machine</p>
+            </div>
+            <div class="absolute inset-0 bg-dark/70 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="text-red-brand font-bold text-lg">View Details <i class="fas fa-arrow-right ml-2"></i></span>
+            </div>
+          </div>
+          <div class="p-6">
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Patented dual-circuit refrigerant direct cooling. 14&mu;m small-core fiber delivers ~40% deeper penetration than conventional handheld welders. Available in 700W to 3000W laser power.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">HW200</span>
+              <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">HW350</span>
+              <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">HW450</span>
+              <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">HW550</span>
+              <span class="text-xs bg-red-50 text-red-brand px-3 py-1 rounded-full font-medium">HW850 NEW</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- iFOA Card -->
+        <a href="product-ifoa.html" class="product-card block bg-white rounded-lg overflow-hidden shadow-md border border-gray-100">
+          <div class="h-56 bg-gradient-to-br from-dark-secondary to-dark flex items-center justify-center relative overflow-hidden">
+            <div class="text-center text-white relative z-10">
+              <i class="fas fa-broom text-5xl mb-4 text-red-brand/70"></i>
+              <h3 class="text-2xl font-bold">iFOA-CN</h3>
+              <p class="text-gray-300 text-sm mt-1">Pulsed Laser Cleaning Machine</p>
+            </div>
+            <div class="absolute inset-0 bg-dark/70 opacity-0 hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="text-red-brand font-bold text-lg">View Details <i class="fas fa-arrow-right ml-2"></i></span>
+            </div>
+          </div>
+          <div class="p-6">
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Advanced pulsed laser technology for precision surface treatment. Removes rust, paint, coatings, and contaminants without chemicals or abrasives. Non-contact, eco-friendly cleaning.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">Rust Removal</span>
+              <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">Paint Stripping</span>
+              <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">Mold Cleaning</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Technology -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-3">Core Technology</h2>
+        <div class="section-divider"></div>
+        <p class="text-gray-500 max-w-2xl mx-auto">Five proprietary technologies that set STRION LASER apart from conventional water-cooled and air-cooled systems.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tech-card bg-white p-6 rounded-lg shadow-sm reveal opacity-0 translate-y-6">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-microchip text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">976nm Pump Source</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            85% electro-optical conversion efficiency vs. ~70% for standard 915nm pumps. Higher efficiency means less power consumption and slower power degradation over the machine's lifetime.
+          </p>
+        </div>
+
+        <div class="tech-card bg-white p-6 rounded-lg shadow-sm reveal opacity-0 translate-y-6" style="transition-delay: 0.1s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-dot-circle text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">14&mu;m Small-Core Fiber</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Industry-leading small core diameter delivers superior beam quality and energy density. Achieves ~40% deeper penetration than conventional 20&mu;m fibers at the same power level.
+          </p>
+        </div>
+
+        <div class="tech-card bg-white p-6 rounded-lg shadow-sm reveal opacity-0 translate-y-6" style="transition-delay: 0.2s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-snowflake text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">Dual-Circuit Refrigerant Cooling</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Compressor-driven refrigerant direct cooling with dual independent circuits. Enables true 7&times;24 continuous operation from -30&deg;C to 60&deg;C. The only system in its class with this capability.
+          </p>
+        </div>
+
+        <div class="tech-card bg-white p-6 rounded-lg shadow-sm reveal opacity-0 translate-y-6" style="transition-delay: 0.3s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-cube text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">All-in-One Integration</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Laser source, cooling, control, and welding gun integrated into a single compact unit. Weighs 38-70kg (model dependent) &mdash; significantly lighter than water-cooled systems (80kg+).
+          </p>
+        </div>
+
+        <div class="tech-card bg-white p-6 rounded-lg shadow-sm reveal opacity-0 translate-y-6" style="transition-delay: 0.4s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-cogs text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">Fully In-House Manufactured</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Laser source, cooling unit, and welding gun are all designed and manufactured in-house. Complete control over quality, compatibility, and continuous improvement.
+          </p>
+        </div>
+
+        <div class="tech-card bg-white p-6 rounded-lg shadow-sm reveal opacity-0 translate-y-6" style="transition-delay: 0.5s">
+          <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-shield-alt text-red-brand text-xl"></i>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">8-Layer Safety Protection</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Comprehensive safety system protects both operator and equipment. Small-core fiber naturally reduces return light for safe welding of reflective materials like aluminum and copper.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Applications -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-3">Applications</h2>
+        <div class="section-divider"></div>
+        <p class="text-gray-500 max-w-2xl mx-auto">From sheet metal fabrication to pipe processing, STR-HW handles a wide range of industrial welding applications.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
+        <div class="p-6 rounded-lg hover:bg-gray-50 transition reveal opacity-0 translate-y-6">
+          <div class="w-14 h-14 mx-auto mb-3 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-industry text-red-brand text-xl"></i>
+          </div>
+          <p class="text-sm font-medium text-dark">Sheet Metal</p>
+        </div>
+        <div class="p-6 rounded-lg hover:bg-gray-50 transition reveal opacity-0 translate-y-6" style="transition-delay: 0.1s">
+          <div class="w-14 h-14 mx-auto mb-3 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-wrench text-red-brand text-xl"></i>
+          </div>
+          <p class="text-sm font-medium text-dark">Pipe Processing</p>
+        </div>
+        <div class="p-6 rounded-lg hover:bg-gray-50 transition reveal opacity-0 translate-y-6" style="transition-delay: 0.2s">
+          <div class="w-14 h-14 mx-auto mb-3 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-home text-red-brand text-xl"></i>
+          </div>
+          <p class="text-sm font-medium text-dark">Kitchen & Bath</p>
+        </div>
+        <div class="p-6 rounded-lg hover:bg-gray-50 transition reveal opacity-0 translate-y-6" style="transition-delay: 0.3s">
+          <div class="w-14 h-14 mx-auto mb-3 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-door-open text-red-brand text-xl"></i>
+          </div>
+          <p class="text-sm font-medium text-dark">Doors & Windows</p>
+        </div>
+        <div class="p-6 rounded-lg hover:bg-gray-50 transition reveal opacity-0 translate-y-6" style="transition-delay: 0.4s">
+          <div class="w-14 h-14 mx-auto mb-3 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-car text-red-brand text-xl"></i>
+          </div>
+          <p class="text-sm font-medium text-dark">Auto Components</p>
+        </div>
+        <div class="p-6 rounded-lg hover:bg-gray-50 transition reveal opacity-0 translate-y-6" style="transition-delay: 0.5s">
+          <div class="w-14 h-14 mx-auto mb-3 bg-red-50 rounded-full flex items-center justify-center">
+            <i class="fas fa-hard-hat text-red-brand text-xl"></i>
+          </div>
+          <p class="text-sm font-medium text-dark">General Fab</p>
+        </div>
+      </div>
+
+      <div class="mt-10 text-center">
+        <p class="text-gray-500 text-sm">Compatible materials: Stainless Steel, Carbon Steel, Aluminum, Galvanized Sheet, Brass, Copper</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why STR-HW vs Competition -->
+  <section class="py-20 bg-dark text-white">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Why STR-HW Outperforms</h2>
+      <div class="section-divider"></div>
+      <p class="text-gray-400 max-w-2xl mx-auto mb-10">
+        See how refrigerant direct cooling compares against air-cooled, water-cooled, and competing systems.
+      </p>
+
+      <div class="grid md:grid-cols-4 gap-6 text-left">
+        <div class="bg-dark-card p-6 rounded-lg reveal opacity-0 translate-y-6">
+          <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">Advantage</p>
+          <h4 class="font-bold text-lg mb-1 text-red-brand">vs. Air-Cooled</h4>
+          <p class="text-sm text-gray-400">Higher power, continuous 24/7 operation, deeper penetration, wider temperature range. Air-cooled limited to &lt;1000W.</p>
+        </div>
+        <div class="bg-dark-card p-6 rounded-lg reveal opacity-0 translate-y-6" style="transition-delay: 0.1s">
+          <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">Advantage</p>
+          <h4 class="font-bold text-lg mb-1 text-red-brand">vs. Water-Cooled</h4>
+          <p class="text-sm text-gray-400">Lighter (38-70kg vs. 80kg+), more energy efficient, smaller footprint. No water maintenance required.</p>
+        </div>
+        <div class="bg-dark-card p-6 rounded-lg reveal opacity-0 translate-y-6" style="transition-delay: 0.2s">
+          <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">Advantage</p>
+          <h4 class="font-bold text-lg mb-1 text-red-brand">vs. Other Refrigerant</h4>
+          <p class="text-sm text-gray-400">Only system with 14&mu;m small-core fiber and dual-circuit cooling. Competitors use single-circuit + 20&mu;m+ fiber.</p>
+        </div>
+        <div class="bg-dark-card p-6 rounded-lg reveal opacity-0 translate-y-6" style="transition-delay: 0.3s">
+          <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">Advantage</p>
+          <h4 class="font-bold text-lg mb-1 text-red-brand">Reliability</h4>
+          <p class="text-sm text-gray-400">Fully in-house manufactured. Higher reliability than assembled systems. 30%+ less energy consumption.</p>
+        </div>
+      </div>
+
+      <a href="products.html#comparison" class="inline-block mt-10 text-red-light hover:text-red-brand font-medium transition">
+        View Full Comparison Table <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-red-brand">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Ready to Upgrade Your Welding Capability?</h2>
+      <p class="text-white/80 mb-8">Contact us for pricing, specifications, or to schedule a demonstration.</p>
+      <a href="contact.html" class="inline-block bg-dark hover:bg-dark-secondary text-white font-bold px-8 py-3 rounded transition">
+        Get in Touch <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8 mb-12">
+        <div>
+          <h3 class="text-xl font-bold mb-4">STRION<span class="text-red-brand">LASER</span></h3>
+          <p class="text-gray-400 text-sm leading-relaxed mb-3">
+            Advanced laser welding and cleaning solutions. STRION LASER is a cooperative partner brand represented by Jinan Euchio Machinery Co., Ltd.
+          </p>
+          <p class="text-gray-500 text-xs">Authorized Partner</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Products</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="product-hw.html" class="footer-link">STR-HW Handheld Welder</a></li>
+            <li><a href="product-ifoa.html" class="footer-link">iFOA Laser Cleaner</a></li>
+            <li><a href="products.html" class="footer-link">All Products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Company</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="about.html" class="footer-link">Technology</a></li>
+            <li><a href="products.html#comparison" class="footer-link">Product Comparison</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Contact</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><i class="fas fa-envelope mr-2 text-red-brand"></i> sales@euchio.com</li>
+            <li><i class="fab fa-whatsapp mr-2 text-red-brand"></i> +86 186 1558 4520</li>
+            <li><i class="fas fa-map-marker-alt mr-2 text-red-brand"></i> Jinan, Shandong, China</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
+        <p>&copy; 2025 Jinan Euchio Machinery Co., Ltd. All rights reserved. | STRION LASER is a cooperative partner brand.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* ===== STRION LASER Website - Custom Styles ===== */
+
+:root {
+  --red: #c41230;
+  --red-dark: #a00e28;
+  --red-light: #d6354f;
+  --dark: #111111;
+  --dark-secondary: #1a1a1a;
+  --gold: #c8963e;
+  --gold-light: #d4a85c;
+  --gray-bg: #f5f5f5;
+  --text: #333333;
+  --text-light: #777777;
+}
+
+/* Hero slider */
+.hero-slide {
+  display: none;
+  transition: opacity 0.8s ease-in-out;
+}
+.hero-slide.active {
+  display: block;
+}
+
+/* Product card */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Tech cards */
+.tech-card {
+  border-left: 3px solid var(--red);
+  transition: background-color 0.3s ease;
+}
+.tech-card:hover {
+  background-color: #fafafa;
+}
+
+/* Sticky nav */
+.nav-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: rgba(17, 17, 17, 0.97);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile menu */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.mobile-menu.open {
+  max-height: 500px;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* CTA button */
+.btn-glow {
+  box-shadow: 0 0 20px rgba(196, 18, 48, 0.25);
+  transition: all 0.3s ease;
+}
+.btn-glow:hover {
+  box-shadow: 0 0 30px rgba(196, 18, 48, 0.4);
+  transform: translateY(-1px);
+}
+
+/* Section dividers */
+.section-divider {
+  width: 60px;
+  height: 3px;
+  background: var(--red);
+  margin: 0 auto 1.5rem;
+}
+
+/* FAQ accordion */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.faq-answer.open {
+  max-height: 500px;
+}
+
+/* Footer links */
+.footer-link {
+  transition: color 0.2s ease;
+}
+.footer-link:hover {
+  color: var(--red-light);
+}
+
+/* Video container */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Stats counter */
+.stat-number {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Reveal animation base */
+.reveal {
+  transition: all 0.7s ease;
+}

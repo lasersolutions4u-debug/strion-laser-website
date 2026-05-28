@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact us for STRION LASER product inquiries, pricing, specifications, and application consulting. Reach our team at Jinan Euchio Machinery Co., Ltd. for handheld laser welders and laser cleaning equipment.">
+  <title>Contact Us | STRION LASER</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            red: { brand: '#c41230', dark: '#a00e28', light: '#d6354f' },
+            dark: { DEFAULT: '#111111', secondary: '#1a1a1a', card: '#222222' },
+            gold: { DEFAULT: '#c8963e', light: '#d4a85c' },
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-gray-800 antialiased">
+
+  <!-- Navigation -->
+  <nav id="main-nav" class="bg-dark w-full z-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center h-16">
+        <a href="index.html" class="flex items-center space-x-3">
+          <img src="images/logo.png" alt="STRION LASER" class="h-10" onerror="this.style.display='none'">
+          <span class="text-xl font-bold text-white tracking-tight">STRION<span class="text-red-brand">LASER</span></span>
+        </a>
+        <div class="hidden md:flex items-center space-x-8 text-white text-sm font-medium">
+          <a href="index.html" class="hover:text-red-light transition">Home</a>
+          <div class="relative group">
+            <a href="products.html" class="hover:text-red-light transition">Products <i class="fas fa-chevron-down text-xs ml-1"></i></a>
+            <div class="absolute top-full left-0 mt-2 w-56 bg-white text-gray-800 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <a href="product-hw.html" class="block px-4 py-3 hover:bg-gray-50 border-b">STR-HW Series Handheld Welder</a>
+              <a href="product-ifoa.html" class="block px-4 py-3 hover:bg-gray-50">iFOA-CN Laser Cleaner</a>
+            </div>
+          </div>
+          <a href="about.html" class="hover:text-red-light transition">Technology</a>
+          <a href="products.html#comparison" class="hover:text-red-light transition">Compare</a>
+          <a href="contact.html" class="text-red-brand">Contact</a>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden text-white text-2xl">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu md:hidden bg-dark-secondary">
+      <div class="px-4 py-3 space-y-2 text-white text-sm">
+        <a href="index.html" class="block py-2">Home</a>
+        <a href="products.html" class="block py-2">Products</a>
+        <a href="about.html" class="block py-2">Technology</a>
+        <a href="contact.html" class="block py-2 text-red-brand">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="bg-dark-secondary py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Contact Us</h1>
+      <p class="text-gray-400 max-w-2xl mx-auto">Get in touch for product inquiries, pricing, technical support, or partnership opportunities.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12">
+        <!-- Contact Form -->
+        <div>
+          <h2 class="text-2xl font-bold text-dark mb-6">Send Us a Message</h2>
+          <form class="space-y-5" onsubmit="handleFormSubmit(event)">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Name *</label>
+                <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-brand focus:border-transparent transition text-sm" placeholder="Your name">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Company</label>
+                <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-brand focus:border-transparent transition text-sm" placeholder="Company name">
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Email *</label>
+                <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-brand focus:border-transparent transition text-sm" placeholder="your@email.com">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Phone / WhatsApp</label>
+                <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-brand focus:border-transparent transition text-sm" placeholder="+ country code">
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Product Interest</label>
+              <select class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-brand focus:border-transparent transition text-sm text-gray-700">
+                <option value="">Select a product...</option>
+                <option value="hw200">STR-HW200 Handheld Laser Welder (700W)</option>
+                <option value="hw350">STR-HW350 Handheld Laser Welder (900W)</option>
+                <option value="hw450">STR-HW450 Handheld Laser Welder (1200W)</option>
+                <option value="hw550">STR-HW550 Handheld Laser Welder (1500W)</option>
+                <option value="hw850">STR-HW850 Handheld Laser Welder (3000W)</option>
+                <option value="ifoa">iFOA-CN Laser Cleaning Machine</option>
+                <option value="multiple">Multiple Products</option>
+                <option value="other">Other / General Inquiry</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Message *</label>
+              <textarea required rows="5" class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-brand focus:border-transparent transition text-sm" placeholder="Tell us about your application, materials, and requirements..."></textarea>
+            </div>
+            <button type="submit" class="bg-red-brand hover:bg-red-dark text-white font-bold px-8 py-3 rounded transition btn-glow">
+              Send Inquiry <i class="fas fa-paper-plane ml-2"></i>
+            </button>
+          </form>
+          <div id="form-success" class="hidden mt-4 p-4 bg-green-50 border border-green-200 rounded text-green-700 text-sm">
+            <i class="fas fa-check-circle mr-2"></i> Thank you for your inquiry. We will respond within 24 hours.
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h2 class="text-2xl font-bold text-dark mb-6">Contact Information</h2>
+
+          <div class="space-y-6">
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-red-50 rounded-full flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-envelope text-red-brand"></i>
+              </div>
+              <div>
+                <h3 class="font-medium text-dark">Email</h3>
+                <p class="text-gray-600 text-sm">sales@euchio.com</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-red-50 rounded-full flex items-center justify-center flex-shrink-0">
+                <i class="fab fa-whatsapp text-red-brand"></i>
+              </div>
+              <div>
+                <h3 class="font-medium text-dark">WhatsApp / Phone</h3>
+                <p class="text-gray-600 text-sm">+86 186 1558 4520</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-red-50 rounded-full flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-map-marker-alt text-red-brand"></i>
+              </div>
+              <div>
+                <h3 class="font-medium text-dark">Address</h3>
+                <p class="text-gray-600 text-sm">
+                  Jinan Euchio Machinery Co., Ltd.<br>
+                  Shuntai Plaza, High-tech Zone<br>
+                  Jinan, Shandong, China
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+              <div class="w-10 h-10 bg-red-50 rounded-full flex items-center justify-center flex-shrink-0">
+                <i class="fas fa-clock text-red-brand"></i>
+              </div>
+              <div>
+                <h3 class="font-medium text-dark">Business Hours</h3>
+                <p class="text-gray-600 text-sm">Monday - Friday: 9:00 AM - 6:00 PM (CST/GMT+8)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="mt-8">
+            <h3 class="font-medium text-dark mb-4">Follow Us</h3>
+            <div class="flex space-x-4">
+              <a href="https://www.facebook.com/euchiolaser" target="_blank" rel="noopener" class="w-10 h-10 bg-dark rounded-full flex items-center justify-center text-white hover:bg-red-brand transition">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/josephji/" target="_blank" rel="noopener" class="w-10 h-10 bg-dark rounded-full flex items-center justify-center text-white hover:bg-red-brand transition">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.youtube.com/@euchiolaser" target="_blank" rel="noopener" class="w-10 h-10 bg-dark rounded-full flex items-center justify-center text-white hover:bg-red-brand transition">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Brand Relationship Note -->
+          <div class="mt-8 p-4 bg-gray-50 rounded-lg border-l-4 border-red-brand">
+            <p class="text-sm text-gray-600">
+              <strong>About this contact:</strong> STRION LASER is a cooperative partner brand represented by Jinan Euchio Machinery Co., Ltd. All inquiries are handled by the Euchio team, who will coordinate with STRION LASER's factory for technical questions, pricing, and after-sales support.
+            </p>
+          </div>
+
+          <!-- Map placeholder -->
+          <div class="mt-8 bg-gray-100 rounded-lg h-48 flex items-center justify-center">
+            <div class="text-center text-gray-400">
+              <i class="fas fa-map-marked-alt text-3xl mb-2"></i>
+              <p class="text-sm">Jinan, Shandong, China</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-3">Frequently Asked Questions</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="space-y-3">
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <button class="faq-question w-full text-left px-6 py-4 flex justify-between items-center font-medium text-dark hover:text-red-brand transition">
+            <span>What makes STR-HW different from air-cooled handheld welders?</span>
+            <i class="fas fa-chevron-down faq-icon text-red-brand transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+            <p>STR-HW uses dual-circuit refrigerant direct cooling, which provides far superior cooling capacity compared to air-cooled systems. This enables higher power output (up to 3000W), true 24/7 continuous operation, reliable performance in extreme temperatures (-30&deg;C to 60&deg;C), deeper weld penetration via 14&mu;m small-core fiber, and significantly slower power degradation over the machine's lifetime. Air-cooled systems are limited to under 1000W and cannot sustain continuous operation.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <button class="faq-question w-full text-left px-6 py-4 flex justify-between items-center font-medium text-dark hover:text-red-brand transition">
+            <span>What materials can STR-HW weld?</span>
+            <i class="fas fa-chevron-down faq-icon text-red-brand transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+            <p>STR-HW welds stainless steel, carbon steel, aluminum, galvanized sheet, brass, and copper. The 14&mu;m small-core fiber provides inherent anti-reflection protection, making it particularly safe for highly reflective materials like aluminum and copper alloys. Welding thickness ranges from 0.5mm to 10mm depending on the model and material.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <button class="faq-question w-full text-left px-6 py-4 flex justify-between items-center font-medium text-dark hover:text-red-brand transition">
+            <span>Does STR-HW require special training to operate?</span>
+            <i class="fas fa-chevron-down faq-icon text-red-brand transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+            <p>No. STR-HW comes with pre-set welding process packages for common materials and thicknesses. Operators simply select the material type and thickness, and the machine automatically applies optimized parameters. Even operators new to laser welding can achieve professional-quality results with minimal training. The ergonomic K20SP welding gun weighs under 600g for comfortable extended use.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <button class="faq-question w-full text-left px-6 py-4 flex justify-between items-center font-medium text-dark hover:text-red-brand transition">
+            <span>What is the warranty and after-sales support?</span>
+            <i class="fas fa-chevron-down faq-icon text-red-brand transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+            <p>STR-HW series comes with a comprehensive warranty on the complete machine. We provide technical support, spare parts, and service through our global partner network. Contact us for specific warranty terms and support availability in your region.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <button class="faq-question w-full text-left px-6 py-4 flex justify-between items-center font-medium text-dark hover:text-red-brand transition">
+            <span>How does laser cleaning compare to sandblasting?</span>
+            <i class="fas fa-chevron-down faq-icon text-red-brand transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+            <p>Laser cleaning offers several advantages: no consumables (no blasting media to purchase and dispose of), no dust pollution, selective cleaning (removes only the contaminant, not the substrate), and much lower operator health risks. While initial equipment cost is higher, operating costs are significantly lower over time. Laser cleaning is also easier to automate and integrate into production lines.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <button class="faq-question w-full text-left px-6 py-4 flex justify-between items-center font-medium text-dark hover:text-red-brand transition">
+            <span>Can I visit the factory or see a demonstration?</span>
+            <i class="fas fa-chevron-down faq-icon text-red-brand transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+            <p>Yes, we can arrange factory visits and live demonstrations at STRION LASER's Chengdu facility. For international customers, we can also arrange video demonstrations and connect you with reference customers in your region. Contact us to schedule.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <button class="faq-question w-full text-left px-6 py-4 flex justify-between items-center font-medium text-dark hover:text-red-brand transition">
+            <span>Who is Jinan Euchio Machinery and what is the relationship with STRION LASER?</span>
+            <i class="fas fa-chevron-down faq-icon text-red-brand transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-4 text-gray-600 text-sm leading-relaxed">
+            <p>Jinan Euchio Machinery Co., Ltd. is an authorized partner of STRION LASER (Sichuan STRION Laser Technology Co., Ltd.). Euchio handles international sales, customer support, and distribution for STRION LASER products. All inquiries through this website are managed by the Euchio team, who work directly with STRION LASER's factory on technical questions, pricing, and after-sales service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-red-brand">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Ready to Get Started?</h2>
+      <p class="text-white/80 mb-8">Our team is ready to help you find the right laser solution for your business.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="mailto:sales@euchio.com" class="inline-block bg-dark hover:bg-dark-secondary text-white font-bold px-8 py-3 rounded transition">
+          <i class="fas fa-envelope mr-2"></i> Email Us Directly
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8 mb-12">
+        <div>
+          <h3 class="text-xl font-bold mb-4">STRION<span class="text-red-brand">LASER</span></h3>
+          <p class="text-gray-400 text-sm leading-relaxed mb-3">
+            Advanced laser welding and cleaning solutions. STRION LASER is a cooperative partner brand represented by Jinan Euchio Machinery Co., Ltd.
+          </p>
+          <p class="text-gray-500 text-xs">Authorized Partner</p>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Products</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="product-hw.html" class="footer-link">STR-HW Handheld Welder</a></li>
+            <li><a href="product-ifoa.html" class="footer-link">iFOA Laser Cleaner</a></li>
+            <li><a href="products.html" class="footer-link">All Products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Company</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="about.html" class="footer-link">Technology</a></li>
+            <li><a href="products.html#comparison" class="footer-link">Product Comparison</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm uppercase tracking-wider mb-4 text-gray-300">Contact</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><i class="fas fa-envelope mr-2 text-red-brand"></i> sales@euchio.com</li>
+            <li><i class="fab fa-whatsapp mr-2 text-red-brand"></i> +86 186 1558 4520</li>
+            <li><i class="fas fa-map-marker-alt mr-2 text-red-brand"></i> Jinan, Shandong, China</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
+        <p>&copy; 2025 Jinan Euchio Machinery Co., Ltd. All rights reserved. | STRION LASER is a cooperative partner brand.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      document.getElementById('form-success').classList.remove('hidden');
+      e.target.reset();
+    }
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
