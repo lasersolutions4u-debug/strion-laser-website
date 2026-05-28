@@ -40,17 +40,6 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
-/* Sticky nav */
-.nav-sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 50;
-  background: rgba(17, 17, 17, 0.97);
-  backdrop-filter: blur(8px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
 
 /* Mobile menu */
 .mobile-menu {

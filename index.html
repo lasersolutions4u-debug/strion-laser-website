@@ -27,26 +27,34 @@
 </head>
 <body class="font-sans text-gray-800 antialiased">
 
-  <!-- Top Bar -->
-  <div class="bg-dark text-gray-300 text-sm py-2 hidden md:block">
-    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
-      <span><i class="fas fa-envelope mr-2 text-red-brand"></i>sales@euchio.com</span>
-      <span><i class="fab fa-whatsapp mr-2 text-red-brand"></i>+86 186 1558 4520</span>
-      <div class="flex space-x-4">
-        <a href="#" class="hover:text-red-light transition">EN</a>
-        <a href="#" class="hover:text-red-light transition">中文</a>
+  <!-- Header -->
+  <header class="sticky top-0 z-50">
+    <!-- Top Bar -->
+    <div class="bg-dark-secondary border-b border-gray-800 hidden md:block">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between h-9 text-xs text-gray-400">
+          <a href="mailto:sales@euchio.com" class="hover:text-gray-200 transition flex items-center gap-1.5">
+            <i class="fas fa-envelope text-red-brand"></i> sales@euchio.com
+          </a>
+          <a href="https://wa.me/8618615584520" class="hover:text-gray-200 transition flex items-center gap-1.5">
+            <i class="fab fa-whatsapp text-red-brand"></i> +86 186 1558 4520
+          </a>
+          <div class="flex items-center gap-3">
+            <a href="#" class="hover:text-gray-200 transition">EN</a>
+            <span class="text-gray-700">|</span>
+            <a href="#" class="hover:text-gray-200 transition">中文</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Navigation -->
-  <nav id="main-nav" class="bg-dark w-full z-50">
-    <div class="max-w-7xl mx-auto px-4">
-      <div class="flex justify-between items-center h-16">
-        <a href="index.html" class="flex items-center space-x-3">
-          <img src="images/logo.png" alt="STRION LASER" class="h-10" onerror="this.style.display='none'">
-          <span class="text-xl font-bold text-white tracking-tight">STRION<span class="text-red-brand">LASER</span></span>
-        </a>
+    <!-- Main Nav -->
+    <nav class="bg-dark">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+          <a href="index.html" class="text-xl font-bold text-white tracking-tight font-['Manrope']">
+            STRION<span class="text-red-brand">LASER</span>
+          </a>
         <div class="hidden md:flex items-center space-x-8 text-white text-sm font-medium">
           <a href="index.html" class="text-red-brand">Home</a>
           <div class="relative group">
@@ -75,7 +83,8 @@
         <a href="contact.html" class="block py-2">Contact</a>
       </div>
     </div>
-  </nav>
+    </nav>
+  </header>
 
   <!-- Hero Slider -->
   <section class="relative bg-dark overflow-hidden" style="min-height: 520px;">

@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
-  initStickyNav();
+
   initHeroSlider();
   initFaqAccordion();
   initSmoothScroll();
@@ -22,23 +22,6 @@ function initMobileMenu() {
       icon.classList.toggle('fa-bars');
       icon.classList.toggle('fa-times');
     }
-  });
-}
-
-// Sticky navigation
-function initStickyNav() {
-  const nav = document.getElementById('main-nav');
-  if (!nav) return;
-
-  let lastScroll = 0;
-  window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset;
-    if (currentScroll > 100) {
-      nav.classList.add('nav-sticky');
-    } else {
-      nav.classList.remove('nav-sticky');
-    }
-    lastScroll = currentScroll;
   });
 }
 
